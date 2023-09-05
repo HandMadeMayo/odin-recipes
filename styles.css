@@ -1,0 +1,24 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: red;
+}
+
+.mainbody {
+    background-image: url("./images/guitar-cat.gif"); background-size: 4%;
+    
+}
+
+.odinhome {
+    font-size: 72px; font-weight: 800; text-align: center; color: orange;
+}
+
+.recipe-list{
+    font-size: 50px; margin: auto; width: 30%; 
+}
