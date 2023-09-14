@@ -3,22 +3,40 @@
 }
 
 a:link{
-    color: red;
+    text-decoration: none; color: black;
 }
 
 a:visited{
-    color: red;
+    text-decoration: none; color: black;
 }
 
 .mainbody {
-    background-image: url("./images/guitar-cat.gif"); background-size: 4%;
+    background-color: #94e6f1;
     
 }
 
 .odinhome {
-    font-size: 72px; font-weight: 800; text-align: center; color: orange;
+    font-size: 72px; font-weight: 600; text-align: center; color: black;
+    background-color: white; margin: 20px auto; margin-bottom: 100px; width: 600px;
+    border-radius: 20px; padding: 20px;border-style: solid; 
+    border-color:dimgray;
 }
 
-.recipe-list{
-    font-size: 50px; margin: auto; width: 30%; 
+.recipe_container{
+    background-color: white; display: flex; margin: auto; width: max-content;
+    padding: 20px; border-radius: 20px;border-style: solid; 
+    border-color:dimgray;
+}
+
+.recipe{
+    margin: 10px 20px;
+}
+
+.recipe_pic{
+    width: auto; height: 200px; border-radius: 20px; border-style: solid; 
+    border-color:dimgray;
+}
+
+.recipe_name{
+    text-align: center; font-size: large;
 }
